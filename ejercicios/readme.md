@@ -143,8 +143,8 @@ Se necesita el mayor nivel de estructuración en el XML.
 Después crea un documento DTD validador que tenga en cuenta:
 - El orden del nombre, apellido y dirección del alumno no puede variar.
 - El nombre y apellido es obligatorio, la dirección es opcional.
-- El orden de los módulos no tiene por qué ir de forma secuencial.
-- Cada módulo tendrá un atributo llamado evaluacion que sólo tendrá los valores: 1ev, 2ev, 3ev, ordinaria
+- Cada módulo tendrá un atributo llamado id con un código identificador.
+
 
 
 

@@ -1,0 +1,9 @@
+<!ELEMENT peliculas (pelicula+)>
+<!ELEMENT pelicula (titulo,director+,actores,(anio|fecha))>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT actores (actor+,KK?)>
+<!ELEMENT actor (#PCDATA)>
+<!ELEMENT KK EMPTY>
+<!ELEMENT anio (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>

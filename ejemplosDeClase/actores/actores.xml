@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DTD EXTERNO -->
+<!--<!DOCTYPE peliculas SYSTEM "actores.dtd">-->
+
+<!-- DTD INTERNO -->
+<!--
+<!DOCTYPE peliculas [
+<!ELEMENT peliculas (pelicula)*>
+<!ELEMENT pelicula (titulo,director+,actores,(anio|fecha))>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT actores (actor+,KK?)>-->
+<!--<!ELEMENT actores ANY>-->
+<!--<!ELEMENT actor (#PCDATA)>
+<!ELEMENT anio (#PCDATA)>
+<!ELEMENT KK EMPTY>
+<!ELEMENT fecha (#PCDATA)>
+]> -->
+<!DOCTYPE peliculas SYSTEM "actores.dtd">
+<peliculas>
+    <pelicula>
+        <titulo>Terminator</titulo>
+        <director>James Cameron</director>
+        <director>James Cameron</director>
+        <actores>
+            <actor>Arnold S.</actor>
+            <actor>???</actor>
+            <KK/>
+        </actores>
+        <anio>1985</anio>
+    </pelicula>
+    <pelicula>
+        <titulo>Terminator II</titulo>
+        <director>James Cameron</director>
+        <director>James Cameron</director>
+        <actores>
+            <actor>Arnold S.</actor>
+            <actor>???</actor>
+        </actores>
+        <fecha>01/05/1995</fecha>
+    </pelicula>
+</peliculas>    

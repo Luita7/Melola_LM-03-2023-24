@@ -116,7 +116,7 @@ Consideraciones respecto a la DTD:
 
 ## Ejercicio 6: panel de vuelos
 
-Escribir un documento XML con una DTD asociada que represente la información contenida en la siguiente factura ficticia:
+Escribir un documento XML con una DTD asociada que represente la información contenida en el siguiente panel de vuelos:
 
 Consideraciones respecto a la DTD:
 

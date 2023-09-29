@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE empleados SYSTEM "empleados1.dtd">
+<empleados>
+    <empleado>
+        <nombre>kk</nombre>
+        <apellidos>klkjlk</apellidos>
+        <movil>66666666</movil>
+        <direciones>
+            <direccion>dir1</direccion>
+            <direccion>dir2</direccion>
+        </direciones>
+    </empleado>
+    <empleado>
+        <nombre>kk</nombre>
+        <apellidos>klkjlk</apellidos>
+        <fijo>66666666</fijo>
+    </empleado>
+</empleados>

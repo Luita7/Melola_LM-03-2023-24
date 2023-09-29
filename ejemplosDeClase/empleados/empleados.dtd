@@ -1,0 +1,3 @@
+<!ELEMENT empleados (empleado+)>
+<!ELEMENT empleado (#PCDATA|nombre)*>
+<!ELEMENT nombre EMPTY>

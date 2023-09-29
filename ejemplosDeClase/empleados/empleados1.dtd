@@ -1,0 +1,8 @@
+<!ELEMENT empleados (empleado*)>
+<!ELEMENT empleado (nombre,apellidos,(movil|fijo),direciones?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT movil (#PCDATA)>
+<!ELEMENT direciones (direccion+)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT fijo (#PCDATA)>

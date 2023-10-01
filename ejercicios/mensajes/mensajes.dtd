@@ -1,0 +1,7 @@
+<!-- SIN ATRIBUTOS -->
+<!ELEMENT mensajes (mensaje*)>
+<!ELEMENT mensaje (numTelefono,fechaEnvio,horaEnvio,texto+)>
+<!ELEMENT numTelefono (#PCDATA)>
+<!ELEMENT fechaEnvio (#PCDATA)>
+<!ELEMENT horaEnvio (#PCDATA)>
+<!ELEMENT texto (#PCDATA)>

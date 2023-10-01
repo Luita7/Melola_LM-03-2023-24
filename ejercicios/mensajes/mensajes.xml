@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mensajes SYSTEM "mensajes2.dtd">
+<mensajes>
+    <mensaje>
+        <telefonos>
+            <movil>666666666</movil>
+            <fijo>918888888</fijo>
+        </telefonos>
+        <fechaEnvio>25/09/2023</fechaEnvio>
+        <horaEnvio franja="GMT+1">12:45</horaEnvio>
+        <texto>Mi primer mensaje 1</texto>
+        <texto>Mi primer mensaje 2</texto>
+        <texto>Mi primer mensaje 3</texto>
+    </mensaje>
+    <mensaje>
+        <telefonos>
+            <fijo>818888888</fijo>
+            <movil>666666666</movil>
+        </telefonos>
+        <fechaEnvio>25/09/2023</fechaEnvio>
+        <horaEnvio franja="GMT+1">12:45</horaEnvio>
+        <texto>Mi segundo mensaje</texto>
+    </mensaje>
+</mensajes>

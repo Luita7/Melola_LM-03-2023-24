@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ELEMENT root (nombre | apellido | edad)*>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+]>
+<root>
+    <apellido>Gómez</apellido>
+    <nombre>Maria</nombre>
+    <edad>25</edad>
+  </root>

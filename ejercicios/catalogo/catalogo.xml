@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalogo SYSTEM "catalogo.dtd">
+<catalogo>
+    <cd>
+      <autor>Los Pisotones</autor>
+      <discografica>Producciones del garaje</discografica>
+      <anyo>2015</anyo>
+      <titulo_disco>En directo</titulo_disco>
+      <canciones>
+        <cancion>
+          <titulo_cancion>Curiosa casualidad</titulo_cancion>
+          <duracion>
+            <minutos>3</minutos>
+            <segundos>54</segundos>
+          </duracion>
+        </cancion>
+        <cancion>
+          <titulo_cancion>Lapiceros de colores</titulo_cancion>
+        </cancion>
+      </canciones>
+    </cd>
+  </catalogo>

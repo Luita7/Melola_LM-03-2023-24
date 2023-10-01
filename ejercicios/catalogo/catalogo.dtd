@@ -1,0 +1,12 @@
+<!ELEMENT catalogo (cd*)>
+<!ELEMENT cd (autor,discografica?,anyo?,titulo_disco,canciones)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT discografica (#PCDATA)>
+<!ELEMENT anyo (#PCDATA)>
+<!ELEMENT titulo_disco (#PCDATA)>
+<!ELEMENT canciones (cancion+)>
+<!ELEMENT cancion (titulo_cancion,duracion?)>
+<!ELEMENT titulo_cancion (#PCDATA)>
+<!ELEMENT duracion (minutos,segundos)>
+<!ELEMENT minutos (#PCDATA)>
+<!ELEMENT segundos (#PCDATA)>

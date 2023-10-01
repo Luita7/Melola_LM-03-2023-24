@@ -1,0 +1,4 @@
+<!ELEMENT root (apellido,nombre,edad)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>

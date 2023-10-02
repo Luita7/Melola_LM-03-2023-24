@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE boletines SYSTEM "boletin.dtd">
+<boletines>
+    <boletin>
+        <datosAlumno>
+            <nombre>Isaac</nombre>
+            <apellido>Pérez</apellido>
+            <direccion CP="28805">
+                <calle numero="6" piso="3" letra="C">Del Pez</calle>
+                <ciudad>Alcalá de Henares</ciudad>
+                <provincia>Madrid</provincia>
+            </direccion>
+        </datosAlumno>
+        <calificaciones>
+            <modulos>
+                <modulo id="LM" nombre="Lenguajes de marcas">
+                    <!--<nombre>Lenguajes de marcas</nombre>-->
+                    <calificacion tipo="1ev">5</calificacion>
+                    <calificacion tipo="2ev">7</calificacion>
+                    <calificacion tipo="3ev">8</calificacion>
+                    <calificacion tipo="ordinaria">7</calificacion>
+                </modulo>
+                <modulo id="PROG" nombre="Programacion">
+                    <!--<nombre>Lenguajes de marcas</nombre>-->
+                    <calificacion tipo="1ev">5</calificacion>
+                    <calificacion tipo="2ev">7</calificacion>
+                    <calificacion tipo="3ev">8</calificacion>
+                    <calificacion tipo="ordinaria">7</calificacion>
+                </modulo>
+            </modulos>
+        </calificaciones>
+    </boletin>
+
+    <boletin>
+        <datosAlumno>
+            <nombre>Isaac</nombre>
+            <apellido>Pérez</apellido>
+            <direccion CP="28805">
+                <calle numero="6" piso="3" letra="C">Del Pez</calle>
+                <ciudad>Alcalá de Henares</ciudad>
+                <provincia>Madrid</provincia>
+            </direccion>
+        </datosAlumno>
+        <calificaciones>
+            <modulos>
+                <modulo id="LM" nombre="Lenguajes de marcas">
+                    <!--<nombre>Lenguajes de marcas</nombre>-->
+                    <calificacion tipo="1ev">5</calificacion>
+                    <calificacion tipo="2ev">7</calificacion>
+                    <calificacion tipo="3ev">8</calificacion>
+                    <calificacion tipo="ordinaria">7</calificacion>
+                </modulo>
+                <modulo id="PROG" nombre="Programacion">
+                    <!--<nombre>Lenguajes de marcas</nombre>-->
+                    <calificacion tipo="1ev">5</calificacion>
+                    <calificacion tipo="2ev">7</calificacion>
+                    <calificacion tipo="3ev">8</calificacion>
+                    <calificacion tipo="ordinaria">7</calificacion>
+                </modulo>
+            </modulos>
+        </calificaciones>
+    </boletin>
+    
+</boletines>

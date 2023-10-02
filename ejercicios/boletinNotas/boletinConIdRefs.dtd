@@ -1,0 +1,22 @@
+<!ELEMENT boletines (modulos,boletin+)>
+<!ELEMENT modulos (modulo+)>
+<!ELEMENT modulo EMPTY>
+<!ATTLIST modulo id ID #REQUIRED>
+<!ATTLIST modulo nombre CDATA #REQUIRED>
+<!ELEMENT boletin (datosAlumno,calificaciones)>
+<!ELEMENT datosAlumno (nombre,apellido,direccion?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT direccion (calle,ciudad,provincia)>
+<!ATTLIST direccion CP NMTOKEN #REQUIRED>
+<!ELEMENT calle (#PCDATA)>
+<!ATTLIST calle numero NMTOKEN #REQUIRED>
+<!ATTLIST calle piso NMTOKEN #REQUIRED>
+<!ATTLIST calle letra NMTOKEN #REQUIRED>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT calificaciones (calificacion+)>
+<!ELEMENT calificacion (nota+)>
+<!ATTLIST calificacion id IDREF #REQUIRED>
+<!ELEMENT nota (#PCDATA)>
+<!ATTLIST nota tipo (1ev|2ev|3ev|ordinaria) #REQUIRED>

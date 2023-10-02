@@ -1,0 +1,29 @@
+<!-- Como mínimo debe ir un botelín -->
+<!ELEMENT boletines (boletin)+>
+
+<!ELEMENT boletin (datosAlumno,calificaciones)>
+
+<!-- el orden del nombre, apellido y dirección del alumno no puede variar-->
+<!ELEMENT datosAlumno (nombre,apellido,direccion?)>
+
+<!-- el orden del nombre, apellido y dirección del alumno SI puede variar-->
+<!--<!ELEMENT datosAlumno (nombre|apellido|direccion)+>-->
+
+<!ELEMENT nombre (#PCDATA)>
+
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT direccion (calle,ciudad,provincia)>
+<!ATTLIST direccion CP NMTOKEN #REQUIRED>
+<!ELEMENT calle (#PCDATA)>
+<!ATTLIST calle numero NMTOKEN #REQUIRED>
+<!ATTLIST calle piso NMTOKEN #REQUIRED>
+<!ATTLIST calle letra NMTOKEN #REQUIRED>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT calificaciones (modulos)>
+<!ELEMENT modulos (modulo+)>
+<!ELEMENT modulo (calificacion+)>
+<!ATTLIST modulo id ID #REQUIRED>
+<!ATTLIST modulo nombre CDATA #REQUIRED>
+<!ELEMENT calificacion (#PCDATA)>
+<!ATTLIST calificacion tipo NMTOKEN #REQUIRED>

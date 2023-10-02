@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE factura SYSTEM "factura.dtd">
+<factura numero="27" fecha="18/12/2013">
+    <!-- Hay que guardar los datos del emisor de la factura agrupados. A continuación, los datos del cliente, también agrupados. Y finalmente, los datos de detalle donde se escriben (en líneas) los datos de cada artículo, así como, el importe total. -->
+    <datos-emisor>
+        <nombre>Librería Pérez</nombre>
+        <cif>4455566B</cif>
+        <telefono>777777777</telefono>
+    </datos-emisor>
+
+    <datos-cliente>
+        <nombre>Biblioteca Pérez</nombre>
+        <cif>4455566A</cif>
+        <telefono>777777777</telefono>
+    </datos-cliente>
+
+    <detalle-factura importe="85" divisa="euro">
+        <articulo codigo="AW7" tipo="Libro">
+            <descripcion>analítica Web</descripcion>
+            <cantidad>1</cantidad>
+            <oferta/>
+            <pvp>25</pvp>
+        </articulo>
+        <articulo codigo="CP5" tipo="DVD">
+            <descripcion>Curso de HTML</descripcion>
+            <cantidad>2</cantidad>
+            <pvp>30</pvp>
+        </articulo>
+    </detalle-factura>
+</factura>

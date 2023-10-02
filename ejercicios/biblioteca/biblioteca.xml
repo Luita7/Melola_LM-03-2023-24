@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
 <biblioteca>
-    <libro codigo="L1" tipo="tapaDura" otro="hola caracola">
+    <libro codigo="L1" tipo="tapaDura" otro="cualquier cosa!">
         <titulo>lakjsdfasdf</titulo>
         <edicion>primera</edicion>
         <editorial>asdf</editorial>
         <ISBN>asdfasdfasdf</ISBN>
         <numPags>225</numPags>
         <autores>
-            <autor>Pepito</autor>
-            <autor>Pepito2</autor>
+            <autor id="a1">Pepito</autor>
+            <autor id="a2">Pepito2</autor>
             <autora>Mari</autora>
             <autor>Menganito</autor>
         </autores>
     </libro>
-    <libro codigo="L2" tipo="tapaBland">
+    <libro codigo="L2" tipo="tapaBlanda">
         <titulo>lakjsdfasdf</titulo>
         <edicion>primera</edicion>
         <editorial>asdf</editorial>

@@ -1,6 +1,6 @@
 <!ELEMENT biblioteca (libro+)>
 <!ELEMENT libro (titulo,edicion,editorial,ISBN,numPags,autores)>
-<!ATTLIST libro codigo NMTOKEN #REQUIRED>
+<!ATTLIST libro codigo ID #REQUIRED>
 <!ATTLIST libro tipo NMTOKEN #IMPLIED>
 <!ATTLIST libro otro CDATA #IMPLIED>
 <!ELEMENT titulo (#PCDATA)>
@@ -8,7 +8,7 @@
 <!ELEMENT editorial (#PCDATA)>
 <!ELEMENT ISBN (#PCDATA)>
 <!ELEMENT numPags (#PCDATA)>
-<!--<!ELEMENT autores (autor|autora)*>-->
-<!ELEMENT autores (autor|autora)+>
+<!ELEMENT autores (autor|autora)*>
 <!ELEMENT autor (#PCDATA)>
+<!ATTLIST autor id ID #IMPLIED>
 <!ELEMENT autora (#PCDATA)>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aeropuerto SYSTEM "panel.dtd">
+<aeropuerto>
+    <nombre>JFK</nombre>
+    <vuelos>
+        <vuelo codigo="V22" estado="R">
+            <diario/>
+            <origen>New York</origen>
+            <destino>Chicago</destino>
+            <horaSalida>9:30</horaSalida>
+            <horaLlegada>11:30</horaLlegada>
+        </vuelo>
+        <vuelo codigo="V23" estado="C">
+            <origen>New York</origen>
+            <destino>Miami</destino>
+            <horaSalida>10:15</horaSalida>
+            <horaLlegada>11:15</horaLlegada>
+        </vuelo>
+    </vuelos>
+    <fecha>22/12/2013</fecha>
+</aeropuerto>
